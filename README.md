@@ -4,6 +4,8 @@ A customizable, templated, React/Redux ecommerce platform. **Stand up an ecommer
 
 Check out a test demo at https://redux.store _(Cool domain right?)_
 
+![Store example](./screenshots/storeExample.png)
+
 ## How to Use
 
 #### Set Up
