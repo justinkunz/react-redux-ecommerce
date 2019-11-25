@@ -1,0 +1,2 @@
+require("./partialMatch");
+require("./removeDups");

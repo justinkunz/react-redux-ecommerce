@@ -1,0 +1,26 @@
+{
+  "appData": {
+    "title": "Redux Store",
+    "tagline": "A MERN Stack Ecommerce Site",
+    "supportEmail": "support@redux.store"
+  },
+  "email": {
+    "orderConfirmation": {
+      "header": "Thank you for your order!",
+      "subTxt": "Your order has been placed. Please review the details below."
+    },
+    "revistTagline": "Get More Gifts",
+    "bottomTag1": "Redux Store",
+    "bottomTag2": "Dallas, TX"
+  },
+  "url": "http://redux.store",
+  "dbName": "reduxStore",
+  "shipping": {
+    "origin_zip": "75013",
+    "weight": 4.8,
+    "height": 40,
+    "width": 20,
+    "length": 10,
+    "order_proc_time": 4
+  }
+}

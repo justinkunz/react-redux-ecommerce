@@ -1,0 +1,23 @@
+{
+  "short_name": "Sample Store",
+  "name": "Sample React Redux Store",
+  "icons": [
+    {
+      "src": "storeLogo.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "storeLogo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "storeLogo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone"
+}

@@ -1,0 +1,182 @@
+body {
+  font-family: "Roboto";
+}
+
+.items {
+  width: 100%;
+  margin: 5vh 0 10vh;
+}
+
+.items__card__price {
+  font-weight: 500;
+  font-size: 24px;
+  color: #61b161;
+  margin: 0 0 5px 5px;
+}
+
+.nav {
+  background: linear-gradient(45deg, #282968, transparent);
+}
+
+.nav__bottom__cart {
+  background-color: #c9202f;
+}
+
+.modal__focusTxt {
+  font-weight: 600;
+}
+.title {
+  text-align: center;
+  margin: calc(1vh + 64px) auto 5vh;
+}
+
+.title__text {
+  font-size: 50px;
+  color: #292a68;
+  font-family: "Rock Salt", sans-serif;
+}
+
+.title__text--sub {
+  font-size: 24px;
+  font-family: roboto;
+  font-weight: 100;
+}
+
+.nav__bottom__copyright {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.checkout__paymentBtn {
+  float: right;
+  margin: 1.5rem calc(3rem - 24px) 20px !important;
+}
+
+.checkout__shipping__subAddress {
+  margin-right: 15px !important;
+}
+
+.checkout__sectionBtn,
+.actionBtn {
+  margin: 3rem !important;
+  float: right;
+}
+
+.checkout__paymentBtn--loader,
+.actionBtn--loader {
+  margin-left: 1em;
+}
+.checkout__payment__review--left {
+  margin-right: 20px;
+}
+.checkout__cart--empty {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.checkout__cart__delete {
+  color: #656060;
+  font-weight: 300;
+  font-size: 13px;
+  text-align: center;
+}
+
+.checkout__payment__form {
+  width: 100%;
+}
+
+.checkout__payment__form--container {
+  width: 80%;
+  margin: 0 5%;
+  padding: 5%;
+}
+.MuiBadge-colorPrimary {
+  background-color: #c9202f !important;
+}
+.MuiSnackbarContent-root {
+  background-color: #3db6d2b8 !important;
+}
+
+.clearfix {
+  overflow: auto;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.checkout--hide {
+  display: none !important;
+}
+.checkout__payment__review--container {
+  margin: 0 5%;
+}
+
+.checkout__payment__review__shipping__time {
+  font-style: italic;
+  margin: -3px 0 3px;
+}
+
+.success__subtxt {
+  font-size: 15px;
+  margin-top: 7px;
+}
+
+.checkout__payment__review {
+  justify-content: flex-end;
+  display: flex;
+}
+.checkout__payment__review--right {
+  margin-right: 10px;
+  font-weight: 600;
+}
+.checkout__payment__panel {
+  display: block !important;
+}
+
+.checkout__payment__review__expand--hidden {
+  visibility: hidden;
+}
+
+.PrivateRadioButtonIcon-checked-450,
+.MuiRadio-colorSecondary.Mui-checked {
+  color: #3b87bf !important;
+}
+
+.MuiIconButton-colorSecondary:hover {
+  background-color: #e5f3ff !important;
+}
+
+.orderStatus__arrow {
+  text-align: center;
+  margin-top: 20px;
+}
+.orderStatus__form {
+  margin: 50px;
+}
+
+.orderStatus__results {
+  width: 100%;
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.orderStatus__results--status {
+  font-size: 50px;
+  margin-top: 10px;
+  font-family: "Luckiest Guy";
+}
+@media only screen and (max-width: 600px) {
+  .checkout__cart__delete--desktopOnly {
+    display: none !important;
+  }
+
+  .MuiSnackbarContent-root {
+    margin-bottom: 20px !important;
+  }
+
+  .title__text {
+    font-size: 35px;
+  }
+}
