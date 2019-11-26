@@ -111,7 +111,8 @@ To view all orders, make a get request to `/api/orders/status`. View an example 
 **This is an admin restricted route, so you must pass in the admin key you created as the `Authorization` header.**
 
 ```
-{
+[
+    {
         "cart": [
             {
                 "_id": "5ddc2a2fa9fca700445aabc1",
@@ -175,4 +176,18 @@ To view all orders, make a get request to `/api/orders/status`. View an example 
         },
         "__v": 0
     }
+]
+```
+
+### Update Order Status
+
+To update an orders status, make a post request to `/api/orders/status/:orderId`. View an example of the request body below:
+
+**This is an admin restricted route, so you must pass in the admin key you created as the `Authorization` header.**
+
+```
+{
+    "status": "SHIPPED"
+}
+
 ```
