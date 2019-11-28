@@ -36,7 +36,7 @@ ADMIN_KEY= <KEY TO AUTHENTICATE ADMIN FOR PROTECTED API CALLS>
 _NOTE: The `ADMIN_KEY` variable can be whatever you'd like, although a long alpha numeric key is recommended._
 
 6. Customize the `config.json` file at the root of the repository to your liking.
-7. Grab and beer and make some money 🍻💵
+7. Grab a beer and make some money 🍻💵
 
 ### Handling Inventory
 
