@@ -17,7 +17,7 @@ class Navbar extends Component {
       <AppBar position="fixed">
         <Toolbar className="nav nav__top">
           <Grid item>
-            <Typography variant="h6">[LOGO]</Typography>
+            <Typography variant="h6">{this.props.config.title}</Typography>
           </Grid>
           <Grid item xs />
           <Grid item>
