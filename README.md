@@ -3,6 +3,7 @@
 A customizable, templated, React/Redux ecommerce site. **Stand up a working ecommerce site from scratch in under an hour.**
 
 Check out a test demo at https://redux.store _(Cool domain right?)_
+_Note: The App on this demo is in test mode, so no real transactions will be charged or processed. To view the flow of the app, use the card number `4242 4242 4242 4242` with any future expiration date and a valid zip code on checkout._
 
 ![Store example](./screenshots/storeExample.png)
 
@@ -23,7 +24,7 @@ STRIPE_TEST_SK= <YOUR STRIPE TEST SECRET KEY>
 STRIPE_LIVE_PK= <YOUR STRIPE LIVE PUBLIC KEY>
 STRIPE_LIVE_SK= <YOUR STRIPE LIVE SECRET KEY>
 
-STRIPE_MODE=test
+STRIPE_MODE= <test|live>
 
 EASYSHIP_TOKEN= <YOUR EASYSHIP API ACCESS TOKEN>
 

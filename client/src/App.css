@@ -163,9 +163,9 @@ body {
 }
 
 .orderStatus__results--status {
-  font-size: 50px;
+  font-size: 35px;
   margin-top: 10px;
-  font-family: "Luckiest Guy";
+  font-family: "Rock Salt", sans-serif;
 }
 @media only screen and (max-width: 600px) {
   .checkout__cart__delete--desktopOnly {

@@ -23,7 +23,7 @@ const verifyOrderDetails = async details => {
 
   const order = {
     confirmation: generateConfCode(),
-    orderStatus: "PROCESSING",
+    orderStatus: "Processing",
     time: Date.now(),
     customer: {
       email: details.customer.email,
