@@ -1,7 +1,7 @@
 {
-  "name": "trump-is-a-baby",
+  "name": "redux-store",
   "version": "1.0.0",
-  "description": "website selling baby trump gifts",
+  "description": "example react redux ecommerce site",
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
